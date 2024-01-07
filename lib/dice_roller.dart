@@ -16,7 +16,7 @@ class _DiceRollerState extends State<DiceRoller>{
 
   void rollDice(){
   setState(() {
-    currRoll = randomiser.nextInt(7);
+    currRoll = randomiser.nextInt(6)+1;
   });
 }
   @override
